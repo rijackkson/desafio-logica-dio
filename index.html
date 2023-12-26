@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nível de Herói</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Classificador de Nível de Herói</h1>
+        <img src="/src/png-clipart-superhero-superman-heroes-superhero-removebg-preview.png"
+        <form id="heroForm">
+            <label for="heroName">Nome do Herói:</label>
+            <input type="text" id="heroName" required>
+
+            <label for="heroXP">XP do Herói:</label>
+            
+            <input type="number" id="heroXP" required>
+            <div ontouchstart="">
+                <div class="button" 
+                onclick="checkHeroLevel()">                    
+                  <a href="#">Verifique o Nível</a>
+                </div>
+              </div>            
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
